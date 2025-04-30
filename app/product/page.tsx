@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function ProductPage() {
     return (
         <>
@@ -5,6 +6,8 @@ export default function ProductPage() {
             <p>Product1</p>
             <p>Product2</p>
             <p>Product3</p>
+            <Link href="./">Home</Link>
+
         </>
     )
 }
